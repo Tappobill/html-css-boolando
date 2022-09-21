@@ -86,12 +86,12 @@ header{
 
 .text{
     position: relative;
-    bottom: 55px;
+    bottom: 50px;
 }
 
 .text1{
     position: relative;
-    bottom: 35px;
+    bottom: 30px;
 }
 
 .container-2{
@@ -116,4 +116,33 @@ header{
 
 .m-right{
     margin-right: 5px;
+}
+
+.img-n{
+    display: none;
+}
+
+.photo:hover .img1{
+    display: none;
+}
+
+.photo:hover .img2{
+    display: block;
+}
+
+.heart-r{
+    color: red;    
+    display: none;            
+}
+
+.heart:hover .heart-r{
+    display: block;
+}
+
+.heart:hover .heart-r1{
+    display: none;
+}
+
+.unline:hover .unline-1{
+    text-decoration: underline;
 }
