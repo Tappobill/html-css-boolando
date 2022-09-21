@@ -93,3 +93,27 @@ header{
     position: relative;
     bottom: 35px;
 }
+
+.container-2{
+    background-color: #333;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.container-3{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.1em;
+    line-height: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.m-right{
+    margin-right: 5px;
+}
