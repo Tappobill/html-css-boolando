@@ -6,11 +6,12 @@
 
 header{
     background-color: darkorange;
-    width: 100%;
-    position: fixed;
-    z-index: 1;    
+    /* width: 100%; */
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    margin-bottom: 5rem;      
 }
-
 
 .container{
     width: 80%;
@@ -18,12 +19,18 @@ header{
     display: flex;
     justify-content: space-between;
     color: white;
-    font-size: 0.1em;
-    padding: 5px;    
+    font-size: 1.7em;
+    padding: 5px;
+    align-items: center;    
+}
+
+.logof{
+    display: flex;
+    align-items: center;
 }
 
 .container div>img{
-    width: 40px;
+    width: 10rem;
 }
 
 .container-1{
@@ -32,6 +39,10 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;    
+}
+
+.card{
+    position: relative;
 }
 
 .box{    
@@ -68,30 +79,23 @@ header{
 }
 
 .discount{
-    position: relative;
-    bottom: 70px;
-    left: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 1.7em;    
 }
 
 .heart{
-    position: relative;
-    bottom: 350px;
-    left: 214px;
+    position: absolute;
     background-color: white;
-    width: 30px;
-    height: 30px;
     text-align: center;
-    padding-top: 7px;
+    padding: 2rem;
+    right: 0;
+    top: 1%;
 }
 
 .text{
-    position: relative;
-    bottom: 50px;
-}
-
-.text1{
-    position: relative;
-    bottom: 30px;
+    font-size: 1.5em;
 }
 
 .container-2{
@@ -106,8 +110,8 @@ header{
     margin: auto;
     justify-content: space-between;
     color: white;
-    font-size: 0.1em;
-    line-height: 10px;
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
 
 .bold{
@@ -146,3 +150,5 @@ header{
 .unline:hover .unline-1{
     text-decoration: underline;
 }
+
+
