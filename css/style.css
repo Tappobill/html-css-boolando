@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: darkorange;
     /* width: 100%; */
     position: sticky;
     z-index: 1;
     top: 0;
-    margin-bottom: 5rem;      
+    margin-bottom: 5rem;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     display: flex;
@@ -21,70 +21,70 @@ header{
     color: white;
     font-size: 1.7em;
     padding: 5px;
-    align-items: center;    
+    align-items: center;
 }
 
-.logof{
+.logof {
     display: flex;
     align-items: center;
 }
 
-.container div>img{
+.container div>img {
     width: 10rem;
 }
 
-.container-1{
+.container-1 {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
-.card{
+.card {
     position: relative;
 }
 
-.box{    
-    flex-basis: 32%;    
-    margin: 30px 0;    
+.box {
+    flex-basis: 32%;
+    margin: 30px 0;
 }
 
-.photo img{
-    width: 100%;        
+.photo img {
+    width: 100%;
 }
 
-.b-red{
+.b-red {
     border: 1px solid red;
     background-color: red;
     color: white;
 }
 
-.b-green{
+.b-green {
     border: 1px solid green;
     background-color: green;
     color: white;
 }
 
-.p-red{
+.p-red {
     color: red;
     font-weight: bold;
 }
 
-.p-black{
+.p-black {
     color: black;
     font-weight: lighter;
     text-decoration: line-through;
 }
 
-.discount{
+.discount {
     position: absolute;
     left: 0;
     bottom: 5%;
-    font-size: 1.7em;    
+    font-size: 1.7em;
 }
 
-.heart{
+.heart {
     position: absolute;
     background-color: white;
     text-align: center;
@@ -93,17 +93,17 @@ header{
     top: 1%;
 }
 
-.text{
+.text {
     font-size: 1.5em;
 }
 
-.container-2{
+.container-2 {
     background-color: #333;
     padding: 10px;
     border-bottom: 1px solid white;
 }
 
-.container-3{
+.container-3 {
     display: flex;
     width: 80%;
     margin: auto;
@@ -113,41 +113,39 @@ header{
     line-height: 1.3em;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.m-right{
+.m-right {
     margin-right: 5px;
 }
 
-.img-n{
+.img-n {
     display: none;
 }
 
-.photo:hover .img1{
+.photo:hover .img1 {
     display: none;
 }
 
-.photo:hover .img2{
+.photo:hover .img2 {
     display: block;
 }
 
-.heart-r{
-    color: red;    
-    display: none;            
-}
-
-.heart:hover .heart-r{
-    display: block;
-}
-
-.heart:hover .heart-r1{
+.heart-r {
+    color: red;
     display: none;
 }
 
-.unline:hover .unline-1{
+.heart:hover .heart-r {
+    display: block;
+}
+
+.heart:hover .heart-r1 {
+    display: none;
+}
+
+.unline:hover .unline-1 {
     text-decoration: underline;
 }
-
-
